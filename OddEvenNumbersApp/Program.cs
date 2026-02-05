@@ -8,3 +8,8 @@ foreach (var n in numbers)
 {
   Console.WriteLine($"{n}");
 }
+
+static bool IsEven(int number) => number % 2 == 0;
+
+static bool IsOdd (int number) => !IsEven(number);
+
